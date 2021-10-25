@@ -1,8 +1,8 @@
 # Plan Time - DAY ONE
 ## HTML Elements
-- [ ] Text input for user name
-- [ ] Radio buttons for user Race
-- [ ] Form Submit button
+- [x] Text input for user name
+- [x] Radio buttons for user Race
+- [x] Form Submit button
 ## Events
 - [ ] On form submit
     - [ ] Generate a user object using the form data (generateUser)

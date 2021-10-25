@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title></title>
+    <title>Washington Adventure</title>
 </head>
+<body>
     <form id="user-form">
         <label for="name">
             Your Adventurer Name:
@@ -21,12 +22,28 @@
         <legend>Pick your Path</legend>
         <p id="avatars">
             <label>
-                <input type="radio" name="race" required value="wizard">
-                <img src="" alt="">
+                Wizard
+                <input type="radio" name="class" required value="wizard">
+                <img src="./assets/wizard.png">
+            </label>
+            <label>
+                Fighter
+                <input type="radio" name="class" required value="fighter">
+                <img src="./assets/fighter.png">
+            </label>
+            <label>
+                Rogue
+                <input type="radio" name="class" required value="rogue">
+                <img src="./assets/Rogue.png">
+            </label>
+            <label>
+                Cleric
+                <input type="radio" name="class" required value="cleric">
+                <img src="./assets/cleric.png">
             </label>
         </p>
+        <button>Start your Journey through Washington!</button>
     </form>
-<body>
 
     <script type="module" src="./app.js"></script>
 </body>
