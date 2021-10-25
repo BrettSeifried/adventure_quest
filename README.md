@@ -4,16 +4,16 @@
 - [x] Radio buttons for user Race
 - [x] Form Submit button
 ## Events
-- [ ] On form submit
-    - [ ] Generate a user object using the form data (generateUser)
-        - [ ] write TDD
-        - [ ] Write function - utils.js
+- [x] On form submit
+    - [x] Generate a user object using the form data (generateUser)
+        - [x] write TDD
+        - [x] Write function - utils.js
 
         * User Object in lab notes.
-    - [ ] Store user data in localStorage (setUser)
+    - [x] Store user data in localStorage (setUser)
         * Always use for localStorage
         * Not as complex as e-commerce. More like pokeDex LS.
-    - [ ] Redirect to the map page
+    - [x] Redirect to the map page
 
 ## Map Page
 ### HTML Elements
