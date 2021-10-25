@@ -1,25 +1,38 @@
-# Alchemy Bootstrap Template
+# Plan Time - DAY ONE
+## HTML Elements
+- [ ] Text input for user name
+- [ ] Radio buttons for user Race
+- [ ] Form Submit button
+## Events
+- [ ] On form submit
+    - [ ] Generate a user object using the form data (generateUser)
+        - [ ] write TDD
+        - [ ] Write function - utils.js
 
-## Making a plan
+        * User Object in lab notes.
+    - [ ] Store user data in localStorage (setUser)
+        * Always use for localStorage
+        * Not as complex as e-commerce. More like pokeDex LS.
+    - [ ] Redirect to the map page
 
-(bolded steps are mandatory, unbolded are for more advanced projects)
+## Map Page
+### HTML Elements
+- [ ] List of links for each quest (genertaed fromt he quest-data)
+    - [ ] Link should not be clickable if the user has already compelted the quest
+    - [ ]Link should contrian a URL search parameter containing the quest ID
 
-1) **Make a drawing of your app. Simple "wireframes"**
-2) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
-3) **For each HTML element ask: Why do I need this?**
-4) Ask which of out HTML elements are hard coded, and which are dynamically generated?
-5) **Once we know _why_ we need each element, think about how to implement the "Why" as a "How"**
-6) Is there some state we need to initialize?
-7) **Find all the 'events' (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?**
-8) **Think about how to validate each of your steps**
-9) Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be resused?)
-10) Consider your data model. What objects will you be using? What are the key/value pairs? What arrays do you need? What needs to live in local storage?
-11) **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
+### Events
+- [ ] On page load -- a bunch of game logic that we're punting on (TBD)
 
+## Quest Detail Page
+### HTML elements
+- [ ] Title
+- [ ] Description
+- [ ] Quest Image
+- [ ] Quest Choices (radio buttons)
 
-## To Run Cypress Tests
-* `npm install`
-* `npm test`
-* Cypress will open -- you should then click "run <#> integration spec(s)"
-    ![](cypress.png)
-* Make sure all tests pass
+### Events
+- [ ] On page load, get the quest ID from URL search parameters and load the quest data onto the page.
+- [ ] On form submit 
+    - [ ] update the user data
+    - [ ] redirect to the map page
