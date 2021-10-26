@@ -26,13 +26,13 @@
 
 ## Quest Detail Page
 ### HTML elements
-- [ ] Title
-- [ ] Description
-- [ ] Quest Image
-- [ ] Quest Choices (radio buttons)
+- [x] Title
+- [x] Description
+- [x] Quest Image
+- [x] Quest Choices (radio buttons)
 
 ### Events
-- [ ] On page load, get the quest ID from URL search parameters and load the quest data onto the page.
+- [x] On page load, get the quest ID from URL search parameters and load the quest data onto the page.
 - [ ] On form submit 
     - [ ] update the user data
     - [ ] redirect to the map page

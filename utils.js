@@ -31,7 +31,7 @@ export function getUser(){
 export function scoreQuest(choiceOBject, questId, userObject){
     userObject.hp += choiceOBject.hp;
     userObject.gold += choiceOBject.gold;
-    userObject.compelted[questId] = true;
+    userObject.completed[questId] = true;
 }
 
 export function hasCompletedAllQuests(userObject){

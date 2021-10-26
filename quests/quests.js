@@ -51,6 +51,20 @@ questChoices.addEventListener('submit', (expect)=>{
 
 // display the result
 // display a link to og back to the map.
-    const
+    const questDetails = document.getElementById('quest-details');
+    questDetails.classList.add('hidden');
+
+    const questResults = document.createElement('results');
+
+    const resultPara = document.createElement('p');
+    resultPara.textContent = choice.result;
+
+    const backLink = document.createElement('a');
+    backLink.href = '../map';
+    backLink.textContent = 'Back to your Journey';
+
+    questResults.append(resultPara, backLink);
+
+    questResults.classList.remove('hidden');
 
 });
