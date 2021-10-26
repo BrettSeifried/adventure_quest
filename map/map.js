@@ -1,5 +1,8 @@
 import quests from '../data/quest-data.js';
 import { getUser, hasCompletedAllQuests } from '../utils.js';
+import { loadProfile } from '../data/profile.js';
+
+loadProfile();
 
 const mapLinks = document.getElementById('map-links');
 
