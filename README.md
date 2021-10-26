@@ -19,7 +19,7 @@
 ### HTML Elements
 - [ ] List of links for each quest (genertaed fromt he quest-data)
     - [ ] Link should not be clickable if the user has already compelted the quest
-    - [ ]Link should contrian a URL search parameter containing the quest ID
+    - [x]Link should contrian a URL search parameter containing the quest ID
 
 ### Events
 - [ ] On page load -- a bunch of game logic that we're punting on (TBD)
