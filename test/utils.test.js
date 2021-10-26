@@ -91,7 +91,7 @@ test('hasCompletedAllQuests returns true if the user has compelted all quests', 
     e.equal(actual, true);
 });
 
-test('hasCompletedAllQuests returns false if th e user has NOT completed all quests.', (e)=>{
+test('hasCompletedAllQuests returns false if the user has NOT completed all quests.', (e)=>{
     const userObject = {
         completed: { seattle: true, yakima: true },
     };

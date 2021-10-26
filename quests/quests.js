@@ -54,7 +54,7 @@ questChoices.addEventListener('submit', (expect)=>{
     const questDetails = document.getElementById('quest-details');
     questDetails.classList.add('hidden');
 
-    const questResults = document.createElement('results');
+    const questResults = document.getElementById('results');
 
     const resultPara = document.createElement('p');
     resultPara.textContent = choice.result;

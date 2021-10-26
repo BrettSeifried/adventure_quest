@@ -6,7 +6,7 @@ const mapLinks = document.getElementById('map-links');
 const player = getUser();
 
 if (player.hp <= 0 || hasCompletedAllQuests(player)){
-    window.location.replace('../gameover');
+    window.location.replace('../endgame');
 }
 
 
