@@ -17,6 +17,9 @@ function displayLink(quest){
     const a = document.createElement('a');
     a.href = `../quests/?id=${quest.id}`;
     a.textContent = quest.title;
+    a.classList.add('mapLinks');
+    a.style.top = quest.map.top;
+    a.style.left = quest.map.left;
 
     mapLinks.appendChild(a);
 }

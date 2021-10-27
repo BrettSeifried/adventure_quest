@@ -36,3 +36,17 @@
 - [x] On form submit 
     - [x] update the user data
     - [x] redirect to the map page
+
+## Day 3 to-do
+- [x] avatar info
+    - [x] load profile in quest.js end of event listener
+- [x] Place links on map
+    - [x] map.css
+    - [x] displayLink & displaySpan
+- [ ] End Game Screen
+    - [ ] Chacter summary
+    - [ ] Death screen vs survive screen
+    - [ ] reset button that clears LS and goes to homepage
+        - [ ] Prize based on gold if time allowed
+- [ ] Avatar, hp, and gold on each page
+

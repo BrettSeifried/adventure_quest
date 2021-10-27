@@ -1,10 +1,12 @@
 import quests from '../data/quest-data.js';
+import { loadProfile } from '../data/profile.js';
 import { findById, setUser, getUser, scoreQuest } from '../utils.js';
 
 const params = new URLSearchParams(window.location.search);
 
 const questData = findById(quests, params.get('id'));
 
+loadProfile();
 
 // update HTML elements with quest data
 const title = document.getElementById('quest-title');
@@ -53,6 +55,8 @@ questChoices.addEventListener('submit', (expect)=>{
 // display a link to og back to the map.
     const questDetails = document.getElementById('quest-details');
     questDetails.classList.add('hidden');
+    questDetails.classList.remove('quest-details');
+
 
     const questResults = document.getElementById('results');
 

@@ -2,8 +2,8 @@ const seattle = {
     id: 'seattle',
     title: 'The Needle that pierces space',
     map: {
-        top: '89%',
-        left: '44%',
+        top: '58%',
+        left: '30%',
     },
     image: 'Seattle.jpg',
     description: `
@@ -40,8 +40,8 @@ const yakima = {
     id: 'yakima',
     title: 'Yakima Training',
     map: {
-        top: '17%',
-        left: '37%'
+        top: '78%',
+        left: '48%'
     },
     image: 'Yakima.webp',
     description: `
@@ -78,8 +78,8 @@ const spokane = {
     id: 'spokane',
     title: 'Spokane river monsters',
     map: {
-        top: '82%',
-        left: '5%'
+        top: '55%',
+        left: '62%'
     },
     image: 'spokane.jpg',
     description: `
