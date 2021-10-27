@@ -48,5 +48,5 @@
     - [ ] Death screen vs survive screen
     - [ ] reset button that clears LS and goes to homepage
         - [ ] Prize based on gold if time allowed
-- [ ] Avatar, hp, and gold on each page
+- [x] Avatar, hp, and gold on each page
 

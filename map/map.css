@@ -17,19 +17,23 @@ header {
     width: 100%;
     justify-content: space-between;
     font-size: small;
-    -webkit-text-stroke: .75px black;
-}
-
-span {
-    margin: 5px;
+    text-shadow: 3px 2px black
 }
 
 h1 {
-    -webkit-text-stroke: .75px black;
+    text-shadow: 5px 2px black
 }
 
 .mapLinks {
     position: absolute;
+}
+
+
+
+.completeQuest {
+    position: absolute;
+    color: yellow;
+    opacity: .7;
 }
 
 #logoname {
@@ -37,15 +41,23 @@ h1 {
     align-items: center;
 }
 
-.profile {
+
+#profile {
     display: flex;
     align-items: center;
+    color: wheat;
 }
+
 
 .avatar {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.start {
+    background-image: url('../assets/quest.png');
+    background-size: 10px;
 }
 
 #name {
@@ -64,5 +76,11 @@ h1 {
 }
 
 a {
-    color: white;
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    text-shadow: 3px 2px black;
+}
+
+a:hover {
+    transform: scale3d(1.3, 1.3, 1.3);
 }
