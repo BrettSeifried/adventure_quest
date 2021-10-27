@@ -37,7 +37,7 @@ const seattle = {
 };
 
 const yakima = {
-    id: 'Yakima',
+    id: 'yakima',
     title: 'Yakima Training',
     map: {
         top: '17%',

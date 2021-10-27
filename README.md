@@ -17,22 +17,22 @@
 
 ## Map Page
 ### HTML Elements
-- [ ] List of links for each quest (genertaed fromt he quest-data)
-    - [ ] Link should not be clickable if the user has already compelted the quest
+- [x] List of links for each quest (genertaed fromt he quest-data)
+    - [x] Link should not be clickable if the user has already compelted the quest
     - [x]Link should contrian a URL search parameter containing the quest ID
 
 ### Events
-- [ ] On page load -- a bunch of game logic that we're punting on (TBD)
+- [x] On page load -- a bunch of game logic that we're punting on (TBD)
 
 ## Quest Detail Page
 ### HTML elements
-- [ ] Title
-- [ ] Description
-- [ ] Quest Image
-- [ ] Quest Choices (radio buttons)
+- [x] Title
+- [x] Description
+- [x] Quest Image
+- [x] Quest Choices (radio buttons)
 
 ### Events
-- [ ] On page load, get the quest ID from URL search parameters and load the quest data onto the page.
-- [ ] On form submit 
-    - [ ] update the user data
-    - [ ] redirect to the map page
+- [x] On page load, get the quest ID from URL search parameters and load the quest data onto the page.
+- [x] On form submit 
+    - [x] update the user data
+    - [x] redirect to the map page
