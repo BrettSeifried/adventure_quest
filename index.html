@@ -14,32 +14,33 @@
     <title>Washington Adventure</title>
 </head>
 <body>
+    <h1>World of Washington</h1>
     <form id="user-form">
         <label for="name">
             Your Adventurer Name:
             <input type="text" name="name">
         </label>
-        <legend>Pick your Path</legend>
+        <legend>Choose your Legend</legend>
         <p id="avatars">
-            <label>
-                Wizard
+            <label class="playerCard">
                 <input type="radio" name="class" required value="wizard">
                 <img src="./assets/wizard.png">
+                Wizard
             </label>
-            <label>
-                Fighter
+            <label class="playerCard">
                 <input type="radio" name="class" required value="fighter">
                 <img src="./assets/fighter.png">
+                Fighter
             </label>
-            <label>
-                Rogue
+            <label class="playerCard">
                 <input type="radio" name="class" required value="rogue">
                 <img src="./assets/Rogue.png">
+                Rogue
             </label>
-            <label>
-                Cleric
+            <label class="playerCard">
                 <input type="radio" name="class" required value="cleric">
                 <img src="./assets/cleric.png">
+                Cleric
             </label>
         </p>
         <button>Start your Journey through Washington!</button>
