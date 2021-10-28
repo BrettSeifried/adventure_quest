@@ -14,13 +14,12 @@
     <title>Washington Adventure</title>
 </head>
 <body>
-    <h1>World of Washington</h1>
+    
+    <header>
+        <h1>World of Washington</h1>
+    </header>
+    <legend>Choose your Legend</legend>
     <form id="user-form">
-        <label for="name">
-            Your Adventurer Name:
-            <input type="text" name="name">
-        </label>
-        <legend>Choose your Legend</legend>
         <p id="avatars">
             <label class="playerCard">
                 <input type="radio" name="class" required value="wizard">
@@ -43,9 +42,12 @@
                 Cleric
             </label>
         </p>
+        <label for="name">
+            Your Adventurer Name:
+            <input type="text" name="name">
+        </label>
         <button>Start your Journey through Washington!</button>
     </form>
-
     <script type="module" src="./app.js"></script>
 </body>
 

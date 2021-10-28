@@ -12,18 +12,39 @@ body {
     background-size: cover;
 }
 
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-decoration: underline orange;
+}
 
 #avatars {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 400px;
+    
+}
+
+legend {
+    font-size: xx-large;
+    margin-top: 3vw;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 4vw;
 }
 
 label {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin: 10px;
+    font-size: xx-large;
 }
 
 img {
@@ -36,7 +57,18 @@ img {
     display: flex;
     flex-direction: column;
     font-size: large;
-    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+input {
+    font-size: x-large;
+    width: 30vw;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(255, 204, 86);
+    text-align: center;
 }
 
 input[type=radio]:hover + img {
