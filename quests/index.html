@@ -8,16 +8,28 @@
     <title>Quests Page</title>
 </head>
 <body>
-    <section>
+    <header>
         <h1 id="quest-title">Quest Title</h1>
+        <div class="profile">
+            <div class="avatar">
+                <img src="" id="avatar">
+                <span id="name"></span>
+            </div>
+            <div class="stats">
+                <span class="profile-stat">HP:</span>
+                <span id="hp"></span>
+                <span class="profile-stat">Gold:</span>
+                <span id="gold"></span>
+            </div>
+    </header>
+    <section class="abc">
         <img id="quest-image" src="../assets/alchemy-logo.png">
-        <div id="quest-details">
+        <div id="quest-details" class="quest-details">
             <p id="quest-description">Descrip Holder</p>
             <form id="quest-choices"></form>
         </div>
         <div id="results" class="hidden"></div>
     </section>
-    
     <script type="module" src="./quests.js"></script>
 </body>
 </html>
