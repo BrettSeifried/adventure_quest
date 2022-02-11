@@ -1,3 +1,7 @@
+# Adventure Quest!
+Welcome to my game built entirely in JavaScript. It uses a linear quest and story chain to reduce health based on decision!
+
+
 # Plan Time - DAY ONE
 ## HTML Elements
 - [x] Text input for user name
